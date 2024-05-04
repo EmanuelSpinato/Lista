@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #taskInput {
+            margin-bottom: 10px;
+        }
+        #taskList {
+            list-style-type: none;
+            padding: 0;
+        }
+        .taskItem {
+            margin-bottom: 5px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Lista de Tarefas</h2>
+    <input type="text" id="taskInput" placeholder="Digite uma nova tarefa">
+    <button id="addTaskBtn">Adicionar</button>
+    <ul id="taskList">
+        <!-- Lista de tarefas será exibida aqui -->
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
